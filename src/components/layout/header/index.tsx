@@ -23,7 +23,7 @@ const Header = () => {
                 </button>
                 <div className={["w-full md:block md:w-auto ", !open && "hidden"].join(" ")} id="navbar-default">
                     <ul className="font-medium flex flex-col md:flex-row space-x-8 rtl:space-x-reverse">
-                        <li className="md:pl-[30px]">
+                        <li className="pl-[30px]">
                             <Link to="/" className="uppercase cursor-pointer font-normal block py-2 px-3 text-white rounded hover:font-semibold md:border-0 md:p-0">Home</Link>
                         </li>
                         <li>
