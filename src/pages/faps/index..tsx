@@ -7,12 +7,12 @@ const FAQPage = () => {
                 <div>
                     <div className="text-center text-4xl lg:text-6xl font-semibold my-10">Frequently Asked Questions</div>
                     <hr className="m-auto border-[#355396] border-[1.5px] w-16" />
-                    <div className="text-md text-center lg:text-xl mt-5 font-semibold">Please reach us at if you cannot find an answer to your question.</div>
+                    <div className="text-md text-center lg:text-xl mt-5 font-semibold">Please reach out to us if you cannot find an answer to your question.</div>
                     <div className="text-md text-center lg:text-left lg:text-xl mt-10">
                         <Accordion collapseAll className="border-none">
                             <Accordion.Panel>
                                 <Accordion.Title className="border-none">
-                                    <p className="text-2xl text-white my-5">What is Flowbite?</p>
+                                    <p className="text-2xl text-white text-left my-5">What is Trust Launchpad ?</p>
                                 </Accordion.Title>
                                 <Accordion.Content className="border-none">
                                     <p className="mb-2 text-white">
@@ -22,21 +22,22 @@ const FAQPage = () => {
                             </Accordion.Panel>
                             <Accordion.Panel>
                                 <Accordion.Title>
-                                    <p className="text-2xl text-white my-5">How do I participate in upcoming IDO's?</p>
+                                    <p className="text-2xl text-white text-left my-5">How do I participate in upcoming IDO's?</p>
                                 </Accordion.Title>
                                 <Accordion.Content className="border-none">
                                     <p className="mb-2 text-white">
-                                        Step1 - Buy $TRUST token from PancakeSwap or any approved centralised exchange. Step2 - Stake your $TRUST token for 30 days. Note, your $TRUST token must be stake for at least 3 days before the IDO starts.
-                                        Step3 - Connect your wallet to the Trust Launchpad dapp.
-                                        Step4 - Check the amount of USDT allocated to you.
-                                        Step5 - Fund your account with the blockchain mainnet token according to the amount allocated to you.
+                                        Step1 - Buy $TRUST token from PancakeSwap or any approved centralised exchange. <br />
+                                        Step2 - Stake your $TRUST token for 30 days. Note, your $TRUST token must be staked for at least 3 days before the IDO starts. <br />
+                                        Step3 - Connect your wallet to the Trust Launchpad dapp. <br />
+                                        Step4 - Check the amount of USDT allocated to you. <br />
+                                        Step5 - Fund your account with the blockchain mainnet token according to the amount allocated to you. <br />
                                         Step6 - Wait for IDO to open before you can participate.
                                     </p>
                                 </Accordion.Content>
                             </Accordion.Panel>
                             <Accordion.Panel>
                                 <Accordion.Title>
-                                    <p className="text-2xl text-white my-5">What are the 'guaranteed' and 'lottery' allocation?</p>
+                                    <p className="text-2xl text-white text-left my-5">What are the 'guaranteed' and 'lottery' allocation?</p>
                                 </Accordion.Title>
                                 <Accordion.Content className="border-none">
                                     <p className="mb-2 text-white">
@@ -46,7 +47,7 @@ const FAQPage = () => {
                             </Accordion.Panel>
                             <Accordion.Panel>
                                 <Accordion.Title>
-                                    <p className="text-2xl text-white my-5">How can I be sure my investment is safe?</p>
+                                    <p className="text-2xl text-white text-left my-5">How can I be sure my investment is safe?</p>
                                 </Accordion.Title>
                                 <Accordion.Content className="border-none">
                                     <p className="mb-2 text-white">
@@ -56,7 +57,7 @@ const FAQPage = () => {
                             </Accordion.Panel>
                             <Accordion.Panel>
                                 <Accordion.Title>
-                                    <p className="text-2xl text-white my-5">How can I be sure my investment is safe?</p>
+                                    <p className="text-2xl text-white text-left my-5">can this be present with a similar structure to the original?</p>
                                 </Accordion.Title>
                                 <Accordion.Content className="border-none">
                                     <p className="mb-2 text-white">
@@ -69,7 +70,7 @@ const FAQPage = () => {
                             </Accordion.Panel>
                             <Accordion.Panel>
                                 <Accordion.Title>
-                                    <p className="text-2xl text-white my-5">Does purchasing more $Trust tokens give more allocation?</p>
+                                    <p className="text-2xl text-white text-left my-5">Does purchasing more $TRUST tokens give more allocation?</p>
                                 </Accordion.Title>
                                 <Accordion.Content className="border-none">
                                     <p className="mb-2 text-white">
@@ -79,7 +80,7 @@ const FAQPage = () => {
                             </Accordion.Panel>
                             <Accordion.Panel>
                                 <Accordion.Title>
-                                    <p className="text-2xl text-white my-5">If I transfer tokens I receive from a Presale to different wallets, will I still be entitled to a refund?</p>
+                                    <p className="text-2xl text-white text-left my-5">If I transfer tokens I receive from a Presale to different wallets, will I still be entitled to a refund?</p>
                                 </Accordion.Title>
                                 <Accordion.Content className="border-none">
                                     <p className="mb-2 text-white">
@@ -89,7 +90,7 @@ const FAQPage = () => {
                             </Accordion.Panel>
                             <Accordion.Panel>
                                 <Accordion.Title>
-                                    <p className="text-2xl text-white my-5">What is the minimum amount of $Trust token required before I can participate in a Private Sale?</p>
+                                    <p className="text-2xl text-white text-left my-5">What is the minimum amount of $TRUST token required before I can participate in a Private Sale?</p>
                                 </Accordion.Title>
                                 <Accordion.Content className="border-none">
                                     <p className="mb-2 text-white">
@@ -99,7 +100,7 @@ const FAQPage = () => {
                             </Accordion.Panel>
                             <Accordion.Panel>
                                 <Accordion.Title>
-                                    <p className="text-2xl text-white my-5">How do I find the result of an IDO?</p>
+                                    <p className="text-2xl text-white text-left my-5">How do I find the result of an IDO?</p>
                                 </Accordion.Title>
                                 <Accordion.Content className="border-none">
                                     <p className="mb-2 text-white">
@@ -109,7 +110,7 @@ const FAQPage = () => {
                             </Accordion.Panel>
                             <Accordion.Panel>
                                 <Accordion.Title>
-                                    <p className="text-2xl text-white my-5">What is the minimum amount of $TRUST Token required to be staked to participate in an IDO?</p>
+                                    <p className="text-2xl text-white text-left my-5">What is the minimum amount of $TRUST Token required to be staked to participate in an IDO?</p>
                                 </Accordion.Title>
                                 <Accordion.Content className="border-none">
                                     <p className="mb-2 text-white">
