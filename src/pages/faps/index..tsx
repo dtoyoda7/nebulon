@@ -27,7 +27,7 @@ const FAQPage = () => {
                                 <Accordion.Content className="border-none">
                                     <p className="mb-2 text-white">
                                         Step1 - Buy $TRUST token from PancakeSwap or any approved centralised exchange. <br />
-                                        Step2 - Stake your $TRUST token for 30 days. Note, your $TRUST token must be staked for at least 3 days before the IDO starts. <br />
+                                        Step2 - Stake your $TRUST token for 30 days. Note, your $TRUST token must be staked for at least 3 days Since the inception of TRUST. <br />
                                         Step3 - Connect your wallet to the Trust Launchpad dapp. <br />
                                         Step4 - Check the amount of USDT allocated to you. <br />
                                         Step5 - Fund your account with the blockchain mainnet token according to the amount allocated to you. <br />
@@ -51,19 +51,9 @@ const FAQPage = () => {
                                 </Accordion.Title>
                                 <Accordion.Content className="border-none">
                                     <p className="mb-2 text-white">
-                                        All the projects launched on Trust Launchpad will be vetted and audited to ensure Trust Launchpad investors are safe against scams and rugs. As an investor you need to make sure you thoroughly understand the project that you will be investing in, do all the required research and only invest
-                                    </p>
-                                </Accordion.Content>
-                            </Accordion.Panel>
-                            <Accordion.Panel>
-                                <Accordion.Title>
-                                    <p className="text-2xl text-white text-left my-5">can this be present with a similar structure to the original?</p>
-                                </Accordion.Title>
-                                <Accordion.Content className="border-none">
-                                    <p className="mb-2 text-white">
-                                        All the projects launched on Trust Launchpad will be vetted and audited to ensure Trust Launchpad investors are safe against scams and rugs.
-                                        As an investor you need to make sure you thoroughly understand the project that you will be investing in, do all the required research and only invest when you are confident.
-                                        Trust Launchpad does not provide any financial advice or force you to invest in any project.
+                                        All the projects launched on Trust Launchpad will be vetted and audited to ensure Trust Launchpad investors are safe against scams and rugs. <br />
+                                        As an investor you need to make sure you thoroughly understand the project that you will be investing in, do all the required research and only invest when you are confident. <br />
+                                        Trust Launchpad does not provide any financial advice or force you to invest in any project. <br />
                                         Note: in the crypto space, the general rule is, invest what you can afford to lose.
                                     </p>
                                 </Accordion.Content>

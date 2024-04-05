@@ -5,14 +5,14 @@ const IDOPolicyPage = () => {
                 <div>
                     <div className="uppercase text-center text-4xl lg:text-6xl font-semibold my-10">Trust Launchpad IDO Policy</div>
                     <hr className="m-auto border-[#355396] border-[1.5px] w-16" />
-                    <div className="grid grid-cols-1 lg:grid-cols-2 gap-20 mt-20">
-                        <div>
-                            <img className="w-full" src={require("../../assets/images/DEXView.jpg")} alt="" />
+                    <div className="grid grid-cols-1 gap-20 mt-20">
+                        <div className="flex justify-center">
+                            <img className="lg:w-4/6" src={require("../../assets/images/Logo3.png")} alt="" />
                         </div>
                         <div className="text-md text-center lg:text-left lg:text-xl">
                             <h1 className="text-4xl">Policy</h1>
                             <p className="mt-10 text-justify">We are sharing TRUST LAUNCHPAD's new and improved security guidelines to promote a safer web3 investment experience for everyone.</p>
-                            <p className="mt-10 text-justify">From the start of TRUST LAUNCHPAD we have always been vocal of our goal to create a safe and secure environment for all presale investors (small, medium or large) and early phase crypto projects. We have proven our commitment to that of safeguarding your trust by ensuring that investors have full exclusive access to pre-audited, safe, innovative and rewarding projects with compliant audits.</p>
+                            <p className="mt-10 text-justify">Since the inception of TRUST LAUNCHPAD we have always been vocal of our goal to create a safe and secure environment for all presale investors (small, medium or large) and early phase crypto projects. We have proven our commitment to that of safeguarding your trust by ensuring that investors have full exclusive access to pre-audited, safe, innovative and rewarding projects with compliant audits.</p>
 
                             <p className="mt-10 text-justify">Because of the unprecedented rise of crypto scams and greedy opportunists, we cannot ignore those projects with unprofessional teams who don't abide by TRUST LAUNCHPAD guidelines, thereby posing a serious threat to our community.</p>
                             <p className="mt-10 text-justify">The TRUST LAUNCHPAD professional team and partners review and evaluate the EXPERTISE of the entire team, review and evaluate the DEVELOPMENT PLAN and project timeline, in addition to reviewing and evaluating the MARKETING PLAN of the project.</p>

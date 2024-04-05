@@ -8,7 +8,7 @@ const TokenomicsPage = () => {
                     <div className="mt-5 grid sm:grid-cols-1 lg:grid-cols-2 gap-20">
                         <div>
                             <h6 className="text-center text-2xl lg:text-4xl font-semibold my-5">Tokenomics</h6>
-                            <img className="w-full h-3/6 object-cover object-center" src={require("../../assets/images/DEXView.jpg")} alt="" />
+                            <img className="w-full h-3/6 object-fit object-center" src={require("../../assets/images/Logo3.png")} alt="" />
                             <div className="mt-5">
                                 <p className="text-md lg:text-xl font-medium text-center">Our token will launch on the BSC chain.<br /> Only 1 Billion tokens will be issued.</p>
                                 <div className="text-md lg:text-xl text-center font-medium mt-10">
@@ -21,7 +21,7 @@ const TokenomicsPage = () => {
                         </div>
                         <div>
                             <h6 className="text-center text-2xl lg:text-4xl font-semibold my-5">Token Allocation</h6>
-                            <img className="w-full h-3/6 object-cover object-center" src={require("../../assets/images/TLP Tokenomics.png")} alt="" />
+                            <img className="w-full h-3/6 object-fit object-center" src={require("../../assets/images/TLP Tokenomics.png")} alt="" />
                             <div className="mt-5 text-md lg:text-xl text-center font-medium">
                                 <p>PRESALE - 400,000,000</p>
                                 <p>DEX LIQUIDITY - 200,000,000</p>
@@ -30,7 +30,7 @@ const TokenomicsPage = () => {
                                 <p>ECOSYSTEM - 50,000,000</p>
                                 <p>TEAM - 80,000,000</p>
                                 <p>ADVISOR - 30,000,000</p>
-                                <p className="mt-10">Our Contract in Published and Verified</p>
+                                <p className="mt-10">Our Contract is Published and Verified</p>
                             </div>
                         </div>
                     </div>
