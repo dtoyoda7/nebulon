@@ -27,7 +27,7 @@ const FAQPage = () => {
                                 <Accordion.Content className="border-none">
                                     <p className="mb-2 text-white">
                                         Step1 - Buy $TRUST token from PancakeSwap or any approved centralised exchange. <br />
-                                        Step2 - Stake your $TRUST token for 30 days. Note, your $TRUST token must be staked for at least 3 days Since the inception of TRUST. <br />
+                                        Step2 - Stake your $TRUST token for 30 days. Note, your $TRUST token must be staked for at least 3 days prior to your selected IDO starting. <br />
                                         Step3 - Connect your wallet to the Trust Launchpad dapp. <br />
                                         Step4 - Check the amount of USDT allocated to you. <br />
                                         Step5 - Fund your account with the blockchain mainnet token according to the amount allocated to you. <br />

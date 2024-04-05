@@ -6,7 +6,7 @@ const DappPage = () => {
                     <div className="text-center text-4xl lg:text-6xl font-semibold my-10">Trust Launchpad</div>
                     <hr className="m-auto border-[#355396] border-[1.5px] w-16" />
                     <div className="text-md text-center lg:text-left lg:text-xl mt-10">
-                        <img className="w-full" src={require("../../assets/images/DEXView.jpg")} alt="" />
+                        <img className="w-full" src={require("../../assets/images/new.webp")} alt="" />
                     </div>
                 </div>
                 <div>
