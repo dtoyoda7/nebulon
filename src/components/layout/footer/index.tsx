@@ -5,7 +5,7 @@ const Footer = () => {
                 <p>Copyright © 2024 trustlaunchpad.finance - All Rights Reserved.</p>
                 <p>Email: <span className="decoration-1">admin@trustlaunchpad.finance</span></p>
             </div>
-            <div>Powered by GoDaddy</div>
+            <div></div>
         </div>
     )
 }
