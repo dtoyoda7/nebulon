@@ -1,0 +1,31 @@
+$base-1: #24be54
+$base-2: #e0fe4c
+body
+	background: #000
+	font-family: "Poppins" sans-serif
+	color: #fff
+.btn--base
+	color: #fff
+	text-decoration: none
+	font-size: 16px
+	border-radius: 27px
+	padding: 10px 45px
+	border: 1px solid $base-1
+	overflow: hidden
+	font-weight: 700
+	position: relative
+	text-transform: uppercase
+	span
+		position: relative
+		z-index: 1
+	&::before
+		position: absolute
+		content: ''
+		inset: 0 0 0 0
+		background: linear-gradient(90deg, $base-1 0%, $base-2 100%)
+		transition: all ease .3s
+	&:hover
+		color: #fff
+		background: transparent
+		&::before
+			top: 100%

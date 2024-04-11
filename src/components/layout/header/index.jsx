@@ -38,6 +38,9 @@ const Header = () => {
                         <li>
                             <Link to="/dapp" className="uppercase cursor-pointer font-normal block py-2 px-3 text-white rounded hover:font-semibold md:border-0 md:p-0">DAPP</Link>
                         </li>
+                        <li>
+                            <Link to="/staking" target="_blank" className="uppercase cursor-pointer font-normal block py-2 px-3 text-white rounded hover:font-semibold md:border-0 md:p-0">Staking</Link>
+                        </li>
                     </ul>
                 </div>
             </div>
